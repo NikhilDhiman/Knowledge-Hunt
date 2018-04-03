@@ -1,0 +1,141 @@
+
+html{
+	margin:0; padding:0;
+}
+body{
+	background-color:black;
+	padding:0 px;
+	margin:0px;
+	
+}
+#login_box{
+	width:40%;
+	height:300px;
+	background-color:white;
+	position:absolute;
+	z-index:1000;
+	border-radius:5px;
+	top:100px;
+	left:30%;
+	display:none;
+	
+	
+}
+#signup_box{
+	width:40%;
+	height:300px;
+	background-color:white;
+	position:absolute;
+	z-index:1000;
+	border-radius:5px;
+	top:100px;
+	left:30%;
+	display:none;
+	
+	
+}
+
+
+i#login_box_c{
+	cursor:pointer;
+	float:right;
+	
+}	
+h3{
+	color;#0064B1;
+}
+#login_bt{
+	margin-left:250px;
+}
+#logo_img{
+
+	margin-top:-1px;
+	
+}
+
+#header_nav{
+	float:right;
+	margin-right:20px;
+
+	
+}
+#header_nav,ul,li,a{
+	display:inline;
+	padding: 10px 30px;
+	color:#0064B1;
+	margin-left:2px;
+	
+	
+	
+}
+
+
+
+#header{
+	position:fixed;
+	z-index:2;
+	top:0px;
+	width: 98%;
+    height:40px;    
+    background-color:white;
+	padding-left:2%;
+	padding-top:0.5%;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	
+	
+	
+}
+
+
+
+
+
+#main{
+	
+margin-top:35px;	
+
+	
+}
+div.auto-slider,ul, li{
+  margin:0; padding:0;
+
+}
+.auto-slider img{
+  display:block;
+}
+.auto-slider{
+  width:
+  height:600px;
+  overflow-x:hidden;
+  
+   
+   
+}
+
+.auto-slider__content{
+  list-style:none;
+  display:flex;
+  background-color:black;
+  opacity:0.5;
+  animation: slide 25s ease-in-out infinite;
+
+
+
+}
+
+@keyframes slide{
+  10%{
+    transform:translateX(0);
+  }
+  20%, 54%{
+    transform:translateX(-1387px);
+  }
+  55%, 83%{
+    transform:translateX(-2774px);
+  }
+  85%, 93%{
+    transform:translateX(0px);
+  }
+  
+  }
+  
